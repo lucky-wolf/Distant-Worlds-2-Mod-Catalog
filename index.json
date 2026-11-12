@@ -1,0 +1,684 @@
+{
+  "schema": 1,
+  "generated": "2026-11-12T16:56:34Z",
+  "mods": [
+    {
+      "schema": 1,
+      "id": "Coherent-R-D",
+      "name": "Coherent R&D",
+      "kind": "code",
+      "version": "1.0.37",
+      "tag": "Coherent-R-D-v1.0.37",
+      "author": "Mordachai",
+      "shortDescription": "Makes the component families in empire policies work the way they read. Adds the families to XL's armor, shields, engines, hyperdrives and reactors, lets an empire that prefers a family still use a clearly better component outside it, and fixes the game's hyperdrive efficiency score. Load it after DW2-XL.",
+      "workshopId": 3819331138,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Settings Keeper",
+          "workshopId": 3824847512,
+          "required": false
+        },
+        {
+          "mod": "Positronic Matrix",
+          "workshopId": 3833406787,
+          "required": false
+        }
+      ],
+      "zip": "Coherent-R-D-v1.0.37.zip",
+      "size": 493038,
+      "sha256": "dd3ce7985e1e592d9509a0424366c80e25b0203529a7950129ed9d21404654f0",
+      "publishedUtc": "2026-11-11T02:18:12.10451Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Coherent-R-D-v1.0.37",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.37/Coherent-R-D-v1.0.37.zip",
+      "publishedAt": "2026-11-12T15:44:21Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Diplomatic-Corps",
+      "name": "Diplomatic Corps",
+      "kind": "code",
+      "version": "1.0.15",
+      "tag": "Diplomatic-Corps-v1.0.15",
+      "author": "Mordachai",
+      "shortDescription": "Diplomacy you control: you decide which treaties each kind of relationship may have, racial and government ceilings limit who becomes an ally, and the AI picks its friends with discipline.",
+      "workshopId": 3829180757,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Settings Keeper",
+          "workshopId": 3824847512,
+          "required": false
+        },
+        {
+          "mod": "Positronic Matrix",
+          "workshopId": 3833406787,
+          "required": false
+        }
+      ],
+      "zip": "Diplomatic-Corps-v1.0.15.zip",
+      "size": 419556,
+      "sha256": "66f17ddbd11824ca9933589df4f641f7c4b598b2e3ddaea60bcde7053f03b7a1",
+      "publishedUtc": "2026-11-12T04:14:38.4012182Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Diplomatic-Corps-v1.0.15",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Diplomatic-Corps-v1.0.15/Diplomatic-Corps-v1.0.15.zip",
+      "publishedAt": "2026-11-12T15:42:16Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "DLC-Compatibility-for-XL",
+      "name": "DLC Compatibility for XL",
+      "kind": "code",
+      "version": "1.0.13",
+      "tag": "DLC-Compatibility-for-XL-v1.0.13",
+      "author": "Mordachai",
+      "shortDescription": "Makes DLC content fit XL without XL needing the DLC. Today: Shadows Rising pirate hulls get XL's bay sizes, so their smallest ships stop fitting the biggest armor.",
+      "workshopId": 3821056424,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "XL",
+          "workshopId": 2916197192,
+          "required": true
+        }
+      ],
+      "zip": "DLC-Compatibility-for-XL-v1.0.13.zip",
+      "size": 443399,
+      "sha256": "0a11cb273e63d7db29afd07c92adaaed262d66b5e10bba7403eeec7848ee7003",
+      "publishedUtc": "2026-11-11T02:18:28.2759071Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/DLC-Compatibility-for-XL-v1.0.13",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/DLC-Compatibility-for-XL-v1.0.13/DLC-Compatibility-for-XL-v1.0.13.zip",
+      "publishedAt": "2026-11-12T15:49:13Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Freighter-Logistics",
+      "name": "Freighter Logistics",
+      "kind": "code",
+      "version": "1.0.39",
+      "tag": "Freighter-Logistics-v1.0.39",
+      "author": "Mordachai",
+      "shortDescription": "Some runtime tweaks to freighter logistics to make them work a bit better",
+      "workshopId": 3813818446,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Positronic Matrix",
+          "workshopId": 3833406787,
+          "required": false
+        },
+        {
+          "mod": "War Chest",
+          "workshopId": 3824731625,
+          "required": false
+        }
+      ],
+      "zip": "Freighter-Logistics-v1.0.39.zip",
+      "size": 684586,
+      "sha256": "1a64ef0924d56e0db0fc392314839eedfef6aa1f40e8631bf1e423cf1e8a11b8",
+      "publishedUtc": "2026-11-11T02:18:56.4434882Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Freighter-Logistics-v1.0.39",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Freighter-Logistics-v1.0.39/Freighter-Logistics-v1.0.39.zip",
+      "publishedAt": "2026-11-12T15:44:25Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Galactic-Genesis",
+      "name": "Galactic Genesis",
+      "kind": "code",
+      "version": "1.0.33",
+      "tag": "Galactic-Genesis-v1.0.33",
+      "author": "Mordachai",
+      "shortDescription": "Rebalances nebulas so that they don't completely destroy logistics and ship range",
+      "workshopId": 3813813248,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [],
+      "zip": "Galactic-Genesis-v1.0.33.zip",
+      "size": 2472745,
+      "sha256": "304c6e6a382422e8cd21e68c958b66f392482999adfd0347c25ae9995251319a",
+      "publishedUtc": "2026-11-11T02:19:47.8648252Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Galactic-Genesis-v1.0.33",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Galactic-Genesis-v1.0.33/Galactic-Genesis-v1.0.33.zip",
+      "publishedAt": "2026-11-12T15:44:28Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Independence-Day",
+      "name": "Independence Day",
+      "kind": "code",
+      "version": "1.0.23",
+      "tag": "Independence-Day-v1.0.23",
+      "author": "Mordachai",
+      "shortDescription": "Makes independent colonies worth having: new games can start with none, independents are always armed and grow stronger defences, and a colony that becomes a new empire gets a real start.",
+      "workshopId": 3819330508,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Positronic Matrix",
+          "workshopId": 3833406787,
+          "required": false
+        }
+      ],
+      "zip": "Independence-Day-v1.0.23.zip",
+      "size": 255139,
+      "sha256": "eb0f9e861510d1fa9bbe30cbb3c483c44c65d59dfbbcac31492a64fa67a7aa0d",
+      "publishedUtc": "2026-11-11T02:20:18.778855Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Independence-Day-v1.0.23",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Independence-Day-v1.0.23/Independence-Day-v1.0.23.zip",
+      "publishedAt": "2026-11-12T15:49:17Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Music-Box",
+      "name": "Music Box",
+      "kind": "code",
+      "version": "1.0.7",
+      "tag": "Music-Box-v1.0.7",
+      "author": "Mordachai",
+      "shortDescription": "Stops the music stuttering in long games by giving the game's music player a longer buffer. Later: your own music, and a music player in the game.",
+      "workshopId": 3828075248,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [],
+      "zip": "Music-Box-v1.0.7.zip",
+      "size": 370059,
+      "sha256": "08a8f78f6f1a988fbdd0e78b10a3cf87e6f2760c8192760923e8517ae9257ca5",
+      "publishedUtc": "2026-11-11T02:24:51.4346395Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Music-Box-v1.0.7",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Music-Box-v1.0.7/Music-Box-v1.0.7.zip",
+      "publishedAt": "2026-11-12T15:49:20Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Positronic-Matrix",
+      "name": "Positronic Matrix",
+      "kind": "code",
+      "version": "1.0.2",
+      "tag": "Positronic-Matrix-v1.0.2",
+      "author": "Mordachai",
+      "shortDescription": "Gives other code mods a safe place to keep their data in your saved game, so a choice or a record survives save and load.",
+      "workshopId": 3833406787,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [],
+      "zip": "Positronic-Matrix-v1.0.2.zip",
+      "size": 768500,
+      "sha256": "0e9b952fdd25f80a526cd1664abf990f9d703fe9336b9d2a55288669c76dbe95",
+      "publishedUtc": "2026-11-11T02:17:21.6784849Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Positronic-Matrix-v1.0.2",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Positronic-Matrix-v1.0.2/Positronic-Matrix-v1.0.2.zip",
+      "publishedAt": "2026-11-12T15:49:22Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Settings-Keeper",
+      "name": "Settings Keeper",
+      "kind": "code",
+      "version": "1.0.24",
+      "tag": "Settings-Keeper-v1.0.24",
+      "author": "Mordachai",
+      "shortDescription": "Keeps your game settings, key bindings, default policy and new-game setup in plain text files outside the game folder, so a game update or a Steam branch switch no longer resets them.",
+      "workshopId": 3824847512,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [],
+      "zip": "Settings-Keeper-v1.0.24.zip",
+      "size": 405175,
+      "sha256": "624e2325e220b7a8a0f0906b60a65ab45f0129f2df0d616f23ee0d524363787a",
+      "publishedUtc": "2026-11-12T02:59:20.1775931Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Settings-Keeper-v1.0.24",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.24/Settings-Keeper-v1.0.24.zip",
+      "publishedAt": "2026-11-12T15:49:25Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Ship-Logistics",
+      "name": "Ship Logistics",
+      "kind": "code",
+      "version": "1.0.40",
+      "tag": "Ship-Logistics-v1.0.40",
+      "author": "Mordachai",
+      "shortDescription": "Small fixes to what individual ships do on their own. Refuel sends a single ship for fuel when its tank is below half and it is within a short flight of running dry, instead of letting it fly on until it strands.",
+      "workshopId": 3815304122,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Settings Keeper",
+          "workshopId": 3824847512,
+          "required": false
+        },
+        {
+          "mod": "Coherent R&D",
+          "workshopId": 3819331138,
+          "required": false
+        }
+      ],
+      "zip": "Ship-Logistics-v1.0.40.zip",
+      "size": 856397,
+      "sha256": "cdb517843077923a29b0205e912659a658f211709ae75dc4fb0e1f71bed3ab48",
+      "publishedUtc": "2026-11-12T05:36:27.0987009Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Ship-Logistics-v1.0.40",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.40/Ship-Logistics-v1.0.40.zip",
+      "publishedAt": "2026-11-12T15:44:31Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Spies-Have-Limits",
+      "name": "Spies Have Limits",
+      "kind": "code",
+      "version": "1.0.16",
+      "tag": "Spies-Have-Limits-v1.0.16",
+      "author": "Mordachai",
+      "shortDescription": "Spies Have Limits gives you the player more control over how they work in game.",
+      "workshopId": 3816199671,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [],
+      "zip": "Spies-Have-Limits-v1.0.16.zip",
+      "size": 1079626,
+      "sha256": "6f4f97e6ba0dffd6c3249e7390e8f1e07f17c90538bf2a54f13118f801f4f0b0",
+      "publishedUtc": "2026-11-11T02:24:07.4479308Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Spies-Have-Limits-v1.0.16",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Spies-Have-Limits-v1.0.16/Spies-Have-Limits-v1.0.16.zip",
+      "publishedAt": "2026-11-12T15:44:34Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Tactical-Savvy",
+      "name": "Tactical Savvy",
+      "kind": "code",
+      "version": "1.0.18",
+      "tag": "Tactical-Savvy-v1.0.18",
+      "author": "Mordachai",
+      "shortDescription": "Makes ships fight more sensibly. Ships hold fire until the target is well inside weapon range instead of firing from the edge of range, and fighters and bombers fight from closer still.",
+      "workshopId": 3819256882,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [],
+      "zip": "Tactical-Savvy-v1.0.18.zip",
+      "size": 316174,
+      "sha256": "533fb5af89932a43a806a16b6c977ff9aa94c2fc568976a07d7c410a904b79a4",
+      "publishedUtc": "2026-11-11T02:24:19.3588499Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Tactical-Savvy-v1.0.18",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Tactical-Savvy-v1.0.18/Tactical-Savvy-v1.0.18.zip",
+      "publishedAt": "2026-11-12T15:44:37Z",
+      "latestDownloads": 2,
+      "downloads": 2
+    },
+    {
+      "schema": 1,
+      "id": "Translation-Core-Japanese",
+      "name": "Translation Core - Japanese",
+      "kind": "translation",
+      "version": "1.0.1",
+      "tag": "Translation-Core-Japanese-v1.0.1",
+      "author": "Mordachai",
+      "shortDescription": "Japanese Translation of DW2",
+      "workshopId": 3829772580,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Translation Font: Japanese",
+          "workshopId": 3829187886,
+          "required": true
+        }
+      ],
+      "zip": "Translation-Core-Japanese-v1.0.1.zip",
+      "size": 1113800,
+      "sha256": "f9fc2f30003d3cebc40020576d9b3cd9d84b9bacebf623b1531987b9d1f7cf91",
+      "publishedUtc": "2026-11-03T18:04:39.0522912Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Translation-Core-Japanese-v1.0.1",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Core-Japanese-v1.0.1/Translation-Core-Japanese-v1.0.1.zip",
+      "publishedAt": "2026-11-12T15:49:30Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Translation-Font-Japanese",
+      "name": "Translation Font - Japanese",
+      "kind": "translation",
+      "version": "1.0.1",
+      "tag": "Translation-Font-Japanese-v1.0.1",
+      "author": "Mordachai",
+      "shortDescription": "",
+      "workshopId": 3829187886,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [],
+      "zip": "Translation-Font-Japanese-v1.0.1.zip",
+      "size": 116474961,
+      "sha256": "9006ad357e14eaf16394ced97007d96705b168a472097d611fa5afe075c3725e",
+      "publishedUtc": "2026-10-29T21:00:20.0833508Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Translation-Font-Japanese-v1.0.1",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Font-Japanese-v1.0.1/Translation-Font-Japanese-v1.0.1.zip",
+      "publishedAt": "2026-11-12T15:49:45Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Translation-Pack-Japanese",
+      "name": "Translation Pack - Japanese",
+      "kind": "translation",
+      "version": "1.0.19",
+      "tag": "Translation-Pack-Japanese-v1.0.19",
+      "author": "Mordachai",
+      "shortDescription": "Translation Pack for Mordchai's Mods (including XL)",
+      "workshopId": 3828082553,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Translation Font: Japanese",
+          "workshopId": 3829187886,
+          "required": true
+        },
+        {
+          "mod": "Translation Core: Japanese",
+          "workshopId": 3829772580,
+          "required": true
+        },
+        {
+          "mod": "XL",
+          "workshopId": 2916197192,
+          "required": true
+        },
+        {
+          "mod": "Coherent R&D",
+          "workshopId": 3819331138,
+          "required": false
+        },
+        {
+          "mod": "Diplomatic Corps",
+          "workshopId": 3829180757,
+          "required": false
+        },
+        {
+          "mod": "DLC Compatibility for XL",
+          "workshopId": 3821056424,
+          "required": false
+        },
+        {
+          "mod": "Freighter Logistics",
+          "workshopId": 3813818446,
+          "required": false
+        },
+        {
+          "mod": "Galactic Genesis",
+          "workshopId": 3813813248,
+          "required": false
+        },
+        {
+          "mod": "Independence Day",
+          "workshopId": 3819330508,
+          "required": false
+        },
+        {
+          "mod": "Music Box",
+          "workshopId": 3828075248,
+          "required": false
+        },
+        {
+          "mod": "Settings Keeper",
+          "workshopId": 3824847512,
+          "required": false
+        },
+        {
+          "mod": "Ship Logistics",
+          "workshopId": 3815304122,
+          "required": false
+        },
+        {
+          "mod": "Spies Have Limits",
+          "workshopId": 3816199671,
+          "required": false
+        },
+        {
+          "mod": "Tactical Savvy",
+          "workshopId": 3819256882,
+          "required": false
+        },
+        {
+          "mod": "Troop Logistics",
+          "workshopId": 3821203666,
+          "required": false
+        },
+        {
+          "mod": "War Chest",
+          "workshopId": 3824731625,
+          "required": false
+        }
+      ],
+      "zip": "Translation-Pack-Japanese-v1.0.19.zip",
+      "size": 1192337,
+      "sha256": "3765701580aaed497fa6a4d46e9e0f2064c04763f6c4d0990e92798fa164cda3",
+      "publishedUtc": "2026-11-12T15:56:18.1253016Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Translation-Pack-Japanese-v1.0.19",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Japanese-v1.0.19/Translation-Pack-Japanese-v1.0.19.zip",
+      "publishedAt": "2026-11-12T15:57:19Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Translation-Pack-Russian",
+      "name": "Translation Pack - Russian",
+      "kind": "translation",
+      "version": "1.0.19",
+      "tag": "Translation-Pack-Russian-v1.0.19",
+      "author": "Mordachai",
+      "shortDescription": "Translation Pack for Mordchai's Mods (including XL)",
+      "workshopId": 3828082894,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Russian Translation",
+          "workshopId": 3737519720,
+          "required": true
+        },
+        {
+          "mod": "Coherent R&D",
+          "workshopId": 3819331138,
+          "required": false
+        },
+        {
+          "mod": "Diplomatic Corps",
+          "workshopId": 3829180757,
+          "required": false
+        },
+        {
+          "mod": "DLC Compatibility for XL",
+          "workshopId": 3821056424,
+          "required": false
+        },
+        {
+          "mod": "Freighter Logistics",
+          "workshopId": 3813818446,
+          "required": false
+        },
+        {
+          "mod": "Galactic Genesis",
+          "workshopId": 3813813248,
+          "required": false
+        },
+        {
+          "mod": "Independence Day",
+          "workshopId": 3819330508,
+          "required": false
+        },
+        {
+          "mod": "Music Box",
+          "workshopId": 3828075248,
+          "required": false
+        },
+        {
+          "mod": "Settings Keeper",
+          "workshopId": 3824847512,
+          "required": false
+        },
+        {
+          "mod": "Ship Logistics",
+          "workshopId": 3815304122,
+          "required": false
+        },
+        {
+          "mod": "Spies Have Limits",
+          "workshopId": 3816199671,
+          "required": false
+        },
+        {
+          "mod": "Tactical Savvy",
+          "workshopId": 3819256882,
+          "required": false
+        },
+        {
+          "mod": "Troop Logistics",
+          "workshopId": 3821203666,
+          "required": false
+        },
+        {
+          "mod": "War Chest",
+          "workshopId": 3824731625,
+          "required": false
+        }
+      ],
+      "zip": "Translation-Pack-Russian-v1.0.19.zip",
+      "size": 1202829,
+      "sha256": "a805a5913e228df491f7e38817faa5e7d9b1e246589824df1d5283fe767be9bf",
+      "publishedUtc": "2026-11-12T15:56:08.8418088Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Translation-Pack-Russian-v1.0.19",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Russian-v1.0.19/Translation-Pack-Russian-v1.0.19.zip",
+      "publishedAt": "2026-11-12T15:57:23Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "Troop-Logistics",
+      "name": "Troop Logistics",
+      "kind": "code",
+      "version": "1.0.40",
+      "tag": "Troop-Logistics-v1.0.40",
+      "author": "Mordachai",
+      "shortDescription": "Troops stay where they are needed: garrisons that scale with population and stay put, idle transports that stop hoarding troops, and reserves staged near your invasion fleets.",
+      "workshopId": 3821203666,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Settings Keeper",
+          "workshopId": 3824847512,
+          "required": false
+        },
+        {
+          "mod": "Positronic Matrix",
+          "workshopId": 3833406787,
+          "required": false
+        },
+        {
+          "mod": "Freighter Logistics",
+          "workshopId": 3813818446,
+          "required": false
+        },
+        {
+          "mod": "War Chest",
+          "workshopId": 3824731625,
+          "required": false
+        }
+      ],
+      "zip": "Troop-Logistics-v1.0.40.zip",
+      "size": 698630,
+      "sha256": "20ea16dacd18146cafd976d9095fe5478d2108d258a1453543f8e619d03860b7",
+      "publishedUtc": "2026-11-12T05:36:46.055594Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Troop-Logistics-v1.0.40",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.40/Troop-Logistics-v1.0.40.zip",
+      "publishedAt": "2026-11-12T15:44:41Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "War-Chest",
+      "name": "War Chest",
+      "kind": "code",
+      "version": "1.0.21",
+      "tag": "War-Chest-v1.0.21",
+      "author": "Mordachai",
+      "shortDescription": "Protect your reserves. Control your spending. Keep the empire ready for anything. One treasury floor and one view of income and upkeep that every XL mod asks before it spends.",
+      "workshopId": 3824731625,
+      "minLauncherVersion": "1.0.30",
+      "dependencies": [
+        {
+          "mod": "Positronic Matrix",
+          "workshopId": 3833406787,
+          "required": false
+        }
+      ],
+      "zip": "War-Chest-v1.0.21.zip",
+      "size": 566924,
+      "sha256": "e4006845030f06f30bf47ef924225fc0cfc5bb3e9d3ab35bb5afa9e66e750d8b",
+      "publishedUtc": "2026-11-12T05:37:00.1629437Z",
+      "repo": "lucky-wolf/Distant-Worlds-2-Mods",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/War-Chest-v1.0.21",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.21/War-Chest-v1.0.21.zip",
+      "publishedAt": "2026-11-12T15:44:45Z",
+      "latestDownloads": 1,
+      "downloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "XL",
+      "name": "XL",
+      "kind": "xl",
+      "version": "1.36.13",
+      "tag": "v1.36.13",
+      "author": "Mordachai",
+      "shortDescription": "eXpands and enLarges the game - tech tree, weapons, engines, reactors, sensors, etc.",
+      "workshopId": 2916197192,
+      "minLauncherVersion": "",
+      "dependencies": [],
+      "zip": "DW2-XL-v1.36.13.zip",
+      "size": 33128742,
+      "sha256": "404ca7420cc397a08d34ec6473fc53b31571624ee3e8def4861a683d61325657",
+      "publishedUtc": "2026-11-11T02:39:04.733Z",
+      "repo": "gitlab.com/coyote-wolf/DW2-XL",
+      "releaseUrl": "https://gitlab.com/coyote-wolf/DW2-XL/-/releases/v1.36.13",
+      "downloadUrl": "https://gitlab.com/api/v4/projects/55255895/packages/generic/dw2-xl/1.36.13/DW2-XL-v1.36.13.zip",
+      "publishedAt": "2026-11-11T02:39:04.733Z",
+      "latestDownloads": null,
+      "downloads": null
+    }
+  ]
+}
