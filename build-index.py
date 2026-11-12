@@ -65,13 +65,20 @@ def releases(repo: str) -> list[dict]:
         page += 1
 
 
-def gitlab_entry(pointer: dict, previous: dict[str, dict]) -> dict | None:
-    """The newest release of a GitLab project. The zip's hash is computed once per tag and then carried over from the last index."""
+def parse_time(text: str) -> datetime:
+    return datetime.fromisoformat(text.replace("Z", "+00:00"))
+
+
+def gitlab_entry(pointer: dict, previous: dict[str, dict], newer_than: str | None) -> dict | None:
+    """The newest release of a GitLab project, or None when it is not newer than `newer_than` (the same mod's listing elsewhere,
+    so the zip is not fetched for nothing). The zip's hash is computed once per tag and then carried over from the last index."""
     project = pointer["project"]
     encoded = urllib.parse.quote(project, safe="")
     release = get_json(f"https://gitlab.com/api/v4/projects/{encoded}/releases?per_page=1")[0]
     link = next((l for l in release["assets"]["links"] if l["name"].endswith(".zip")), None)
     if not link:
+        return None
+    if newer_than and parse_time(release["released_at"]) <= parse_time(newer_than):
         return None
     tag = release["tag_name"]
     version = tag.lstrip("v")
@@ -156,26 +163,37 @@ def main() -> int:
     previous: dict[str, dict] = {}
     if out_path.is_file():
         previous = {m["id"]: m for m in json.loads(out_path.read_text(encoding="utf-8")).get("mods", [])}
-    gitlab_mods = []
+    # One listing per mod id, whichever host released it most recently (a mod may move between GitHub, GitLab or repos).
+    # On equal times the earlier-found listing stays.
+    chosen: dict[str, dict] = {}
+
+    def offer(entry: dict) -> None:
+        current = chosen.get(entry["id"])
+        if current is None or parse_time(entry["publishedAt"]) > parse_time(current["publishedAt"]):
+            chosen[entry["id"]] = entry
+
+    for e in mods.values():
+        offer({**e["latest"], "downloads": e["downloads"]})
+    gitlab_count = 0
     for pointer in pointers.get("gitlab", []):
+        gitlab_count += 1
+        current = chosen.get(pointer["id"])
         try:
-            entry = gitlab_entry(pointer, previous)
+            entry = gitlab_entry(pointer, previous, current["publishedAt"] if current else None)
         except Exception as error:
             print(f"skipped gitlab {pointer.get('project')}: {error}", file=sys.stderr)
-            entry = previous.get(pointer["id"])  # keep the last good entry rather than dropping the mod
+            old = previous.get(pointer["id"])  # keep the last good GitLab listing rather than dropping the mod
+            entry = old if old and old.get("repo", "").startswith("gitlab.com/") else None
         if entry:
-            gitlab_mods.append(entry)
+            offer(entry)
 
     index = {
         "schema": 1,
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "mods": sorted(
-            [{**e["latest"], "downloads": e["downloads"]} for e in mods.values()] + gitlab_mods,
-            key=lambda m: m["name"].lower(),
-        ),
+        "mods": sorted(chosen.values(), key=lambda m: m["name"].lower()),
     }
     Path(args.out).write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
-    print(f"{len(index['mods'])} mod(s) from {len(repos)} GitHub repo(s) and {len(gitlab_mods)} GitLab project(s) -> {args.out}")
+    print(f"{len(index['mods'])} mod(s) from {len(repos)} GitHub repo(s) and {gitlab_count} GitLab project(s) -> {args.out}")
     return 0
 
 
