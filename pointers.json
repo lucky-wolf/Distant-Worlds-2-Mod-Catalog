@@ -6,7 +6,7 @@
       "project": "coyote-wolf/DW2-XL",
       "id": "XL",
       "name": "XL",
-      "kind": "xl",
+      "kinds": ["xml"],
       "author": "Mordachai",
       "workshopId": 2916197192,
       "shortDescription": "eXpands and enLarges the game - tech tree, weapons, engines, reactors, sensors, etc."

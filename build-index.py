@@ -3,7 +3,7 @@
 
 XL and any other mod released on GitLab: pointers.json "gitlab" lists projects; their newest release
 is read from the public GitLab API (no manifest asset needed, the pointer carries the name and
-description). GitLab keeps no public download counts, so those entries have downloads null.
+description). GitLab keeps no public download counts, so those entries have downloads and peakDownloads null. `downloads` totals every release of a mod; `peakDownloads` is its most downloaded single release.
 
 Discovery: repositories carrying the topic "dw2-mod", plus the repos listed in pointers.json
 ("repos"), minus pointers.json "blocked". Each release of those repos may carry a
@@ -99,7 +99,8 @@ def gitlab_entry(pointer: dict, previous: dict[str, dict], newer_than: str | Non
         "schema": 1,
         "id": pointer["id"],
         "name": pointer["name"],
-        "kind": pointer.get("kind", "data"),
+        "kinds": pointer["kinds"],
+        "tags": [t for t in dict.fromkeys(re.sub(r"\s+", " ", str(x).strip()).lower() for x in pointer.get("tags", [])) if t],
         "version": version,
         "tag": tag,
         "author": pointer.get("author", ""),
@@ -118,6 +119,7 @@ def gitlab_entry(pointer: dict, previous: dict[str, dict], newer_than: str | Non
         "publishedAt": release["released_at"],
         "latestDownloads": None,
         "downloads": None,
+        "peakDownloads": None,
     }
 
 
@@ -148,8 +150,9 @@ def main() -> int:
             zip_asset = assets.get(manifest.get("zip", ""))
             if not zip_asset:
                 continue
-            entry = mods.setdefault((repo, manifest["id"]), {"downloads": 0, "latest": None})
+            entry = mods.setdefault((repo, manifest["id"]), {"downloads": 0, "peak": 0, "latest": None})
             entry["downloads"] += zip_asset["download_count"]
+            entry["peak"] = max(entry["peak"], zip_asset["download_count"])
             preview_asset = next((a for n, a in assets.items() if re.search(r"\.preview\.(png|jpe?g)$", n, re.IGNORECASE)), None)
             published = release["published_at"]
             if entry["latest"] is None or published > entry["latest"]["publishedAt"]:
@@ -177,7 +180,7 @@ def main() -> int:
             chosen[entry["id"]] = entry
 
     for e in mods.values():
-        offer({**e["latest"], "downloads": e["downloads"]})
+        offer({**e["latest"], "downloads": e["downloads"], "peakDownloads": e["peak"]})
     gitlab_count = 0
     for pointer in pointers.get("gitlab", []):
         gitlab_count += 1
