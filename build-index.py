@@ -19,6 +19,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -113,6 +114,7 @@ def gitlab_entry(pointer: dict, previous: dict[str, dict], newer_than: str | Non
         "repo": f"gitlab.com/{project}",
         "releaseUrl": f"https://gitlab.com/{project}/-/releases/{tag}",
         "downloadUrl": link["url"],
+        "previewUrl": pointer.get("previewUrl"),
         "publishedAt": release["released_at"],
         "latestDownloads": None,
         "downloads": None,
@@ -148,6 +150,7 @@ def main() -> int:
                 continue
             entry = mods.setdefault((repo, manifest["id"]), {"downloads": 0, "latest": None})
             entry["downloads"] += zip_asset["download_count"]
+            preview_asset = next((a for n, a in assets.items() if re.search(r"\.preview\.(png|jpe?g)$", n, re.IGNORECASE)), None)
             published = release["published_at"]
             if entry["latest"] is None or published > entry["latest"]["publishedAt"]:
                 entry["latest"] = {
@@ -155,6 +158,7 @@ def main() -> int:
                     "repo": repo,
                     "releaseUrl": release["html_url"],
                     "downloadUrl": zip_asset["browser_download_url"],
+                    "previewUrl": preview_asset["browser_download_url"] if preview_asset else None,
                     "publishedAt": published,
                     "latestDownloads": zip_asset["download_count"],
                 }
