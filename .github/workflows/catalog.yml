@@ -12,8 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - run: python build-index.py
@@ -21,12 +21,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit when the index changed (the generated stamp alone does not count)
         run: |
-          if git diff --quiet -I'"generated"' -- index.json; then
+          git add index.json
+          if git diff --cached --quiet -I'"generated"' -- index.json; then
             echo "no change"
           else
             git config user.name "dw2-mod-catalog"
             git config user.email "actions@users.noreply.github.com"
-            git add index.json
             git commit -m "Update catalog"
             git push
           fi
