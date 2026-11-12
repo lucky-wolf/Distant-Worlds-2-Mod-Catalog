@@ -10,6 +10,13 @@ Discovery: repositories carrying the topic "dw2-mod", plus the repos listed in p
 <tag>.manifest.json asset; releases without one are ignored. Download counts and publish dates
 come from GitHub, so nothing here is maintained by hand.
 
+Identity: a mod is its "uid", the UUID the launcher writes into the mod's dw2modlauncher.json where the mod is made or first
+published, and copies into the manifest. A release whose manifest has no valid uid or no author is rejected (reported on stderr,
+never listed), as is a GitLab pointer without them. The first repo to claim a uid owns it: the index remembers each uid's repo, and a
+later release of the same uid from another repo is refused. A deliberate move is approved by a line in pointers.json:
+"approved": {"<uid>": "owner/repo"} (a GitLab project is "gitlab.com/group/project"). This is a guard against casual takeover, not
+proof of authorship; a signature would be needed for that.
+
 Usage: python build-index.py [--out index.json]   (GITHUB_TOKEN raises the API rate limit)
 """
 
@@ -27,6 +34,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 TOPIC = "dw2-mod"
+UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
 API = "https://api.github.com"
 
 
@@ -70,20 +78,28 @@ def parse_time(text: str) -> datetime:
     return datetime.fromisoformat(text.replace("Z", "+00:00"))
 
 
-def gitlab_entry(pointer: dict, previous: dict[str, dict], newer_than: str | None) -> dict | None:
-    """The newest release of a GitLab project, or None when it is not newer than `newer_than` (the same mod's listing elsewhere,
-    so the zip is not fetched for nothing). The zip's hash is computed once per tag and then carried over from the last index."""
+def identity_problem(uid: object, author: object) -> str | None:
+    """Why a mod cannot be listed, or None: it needs an author and a uid that is a lower-case hyphenated UUID."""
+    if not isinstance(uid, str) or not uid.strip():
+        return "no uid"
+    if not UUID.match(uid.strip().lower()):
+        return f"uid {uid!r} is not a UUID"
+    if not isinstance(author, str) or not author.strip():
+        return "no author"
+    return None
+
+
+def gitlab_entry(pointer: dict, previous: dict[str, dict]) -> dict | None:
+    """The newest release of a GitLab project. The zip's hash is computed once per tag and then carried over from the last index."""
     project = pointer["project"]
     encoded = urllib.parse.quote(project, safe="")
     release = get_json(f"https://gitlab.com/api/v4/projects/{encoded}/releases?per_page=1")[0]
     link = next((l for l in release["assets"]["links"] if l["name"].endswith(".zip")), None)
     if not link:
         return None
-    if newer_than and parse_time(release["released_at"]) <= parse_time(newer_than):
-        return None
     tag = release["tag_name"]
     version = tag.lstrip("v")
-    old = previous.get(pointer["id"])
+    old = previous.get(pointer["uid"].strip().lower())
     if old and old.get("tag") == tag and old.get("sha256"):
         size, digest = old["size"], old["sha256"]
     else:
@@ -98,12 +114,13 @@ def gitlab_entry(pointer: dict, previous: dict[str, dict], newer_than: str | Non
     return {
         "schema": 1,
         "id": pointer["id"],
+        "uid": pointer["uid"].strip().lower(),
         "name": pointer["name"],
         "kinds": pointer["kinds"],
         "tags": [t for t in dict.fromkeys(re.sub(r"\s+", " ", str(x).strip()).lower() for x in pointer.get("tags", [])) if t],
         "version": version,
         "tag": tag,
-        "author": pointer.get("author", ""),
+        "author": pointer["author"].strip(),
         "shortDescription": pointer.get("shortDescription", ""),
         "workshopId": pointer.get("workshopId"),
         "minLauncherVersion": pointer.get("minLauncherVersion", ""),
@@ -133,6 +150,14 @@ def main() -> int:
     blocked = {r.lower() for r in pointers.get("blocked", [])}
     repos = sorted({r for r in topic_repos() + pointers.get("repos", []) if r.lower() not in blocked}, key=str.lower)
 
+    approved = {k.strip().lower(): v for k, v in pointers.get("approved", {}).items()}
+
+    out_path = Path(args.out)
+    previous: dict[str, dict] = {}  # the last index's entries by uid (those that have one)
+    if out_path.is_file():
+        previous = {m["uid"]: m for m in json.loads(out_path.read_text(encoding="utf-8")).get("mods", []) if m.get("uid")}
+
+    # Every listing found this run: the newest release per (repo, uid) is the entry, the oldest says who claimed the uid first.
     mods: dict[tuple[str, str], dict] = {}
     for repo in repos:
         for release in releases(repo):
@@ -147,17 +172,24 @@ def main() -> int:
             except Exception as error:  # a broken manifest hides one release, not the catalog
                 print(f"skipped {repo} {release['tag_name']}: {error}", file=sys.stderr)
                 continue
+            problem = identity_problem(manifest.get("uid"), manifest.get("author"))
+            if problem:
+                print(f"rejected {repo} {release['tag_name']}: {problem}", file=sys.stderr)
+                continue
+            uid = manifest["uid"].strip().lower()
             zip_asset = assets.get(manifest.get("zip", ""))
             if not zip_asset:
                 continue
-            entry = mods.setdefault((repo, manifest["id"]), {"downloads": 0, "peak": 0, "latest": None})
+            entry = mods.setdefault((repo, uid), {"downloads": 0, "peak": 0, "latest": None, "first": release["published_at"]})
             entry["downloads"] += zip_asset["download_count"]
             entry["peak"] = max(entry["peak"], zip_asset["download_count"])
+            entry["first"] = min(entry["first"], release["published_at"])
             preview_asset = next((a for n, a in assets.items() if re.search(r"\.preview\.(png|jpe?g)$", n, re.IGNORECASE)), None)
             published = release["published_at"]
             if entry["latest"] is None or published > entry["latest"]["publishedAt"]:
                 entry["latest"] = {
                     **manifest,
+                    "uid": uid,
                     "repo": repo,
                     "releaseUrl": release["html_url"],
                     "downloadUrl": zip_asset["browser_download_url"],
@@ -166,33 +198,40 @@ def main() -> int:
                     "latestDownloads": zip_asset["download_count"],
                 }
 
-    out_path = Path(args.out)
-    previous: dict[str, dict] = {}
-    if out_path.is_file():
-        previous = {m["id"]: m for m in json.loads(out_path.read_text(encoding="utf-8")).get("mods", [])}
-    # One listing per mod id, whichever host released it most recently (a mod may move between GitHub, GitLab or repos).
-    # On equal times the earlier-found listing stays.
-    chosen: dict[str, dict] = {}
-
-    def offer(entry: dict) -> None:
-        current = chosen.get(entry["id"])
-        if current is None or parse_time(entry["publishedAt"]) > parse_time(current["publishedAt"]):
-            chosen[entry["id"]] = entry
-
-    for e in mods.values():
-        offer({**e["latest"], "downloads": e["downloads"], "peakDownloads": e["peak"]})
+    # (listing, when its repo first released this uid)
+    offers: list[tuple[dict, str]] = [({**e["latest"], "downloads": e["downloads"], "peakDownloads": e["peak"]}, e["first"]) for e in mods.values()]
     gitlab_count = 0
     for pointer in pointers.get("gitlab", []):
         gitlab_count += 1
-        current = chosen.get(pointer["id"])
+        problem = identity_problem(pointer.get("uid"), pointer.get("author"))
+        if problem:
+            print(f"rejected gitlab {pointer.get('project')}: {problem}", file=sys.stderr)
+            continue
         try:
-            entry = gitlab_entry(pointer, previous, current["publishedAt"] if current else None)
+            entry = gitlab_entry(pointer, previous)
         except Exception as error:
             print(f"skipped gitlab {pointer.get('project')}: {error}", file=sys.stderr)
-            old = previous.get(pointer["id"])  # keep the last good GitLab listing rather than dropping the mod
+            old = previous.get(pointer["uid"].strip().lower())  # keep the last good GitLab listing rather than dropping the mod
             entry = old if old and old.get("repo", "").startswith("gitlab.com/") else None
         if entry:
-            offer(entry)
+            offers.append((entry, entry["publishedAt"]))
+
+    # One listing per uid, from the repo that owns it: the one approved in pointers.json, else the one the last index listed it from,
+    # else the one that released it first. Another repo's release of the same uid is refused (and reported), never listed.
+    chosen: dict[str, dict] = {}
+    by_uid: dict[str, list[tuple[dict, str]]] = {}
+    for entry, first in offers:
+        by_uid.setdefault(entry["uid"], []).append((entry, first))
+    for uid, group in by_uid.items():
+        owner = approved.get(uid) or (previous[uid]["repo"] if uid in previous else min(group, key=lambda g: parse_time(g[1]))[0]["repo"])
+        mine = [e for e, _ in group if e["repo"].lower() == owner.lower()]
+        for e, _ in group:
+            if e["repo"].lower() != owner.lower():
+                print(f"refused {e['repo']} {e.get('tag')}: uid {uid} belongs to {owner} (approve a move with \"approved\" in pointers.json)", file=sys.stderr)
+        if mine:
+            chosen[uid] = max(mine, key=lambda e: parse_time(e["publishedAt"]))
+        elif uid in previous:
+            chosen[uid] = previous[uid]  # the owning repo gave nothing this run (an outage, say): keep its last listing
 
     index = {
         "schema": 1,

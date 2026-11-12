@@ -5,6 +5,7 @@
     {
       "project": "coyote-wolf/DW2-XL",
       "id": "XL",
+      "uid": "363fba16-301d-41d4-979e-3432c10cbd59",
       "name": "XL",
       "kinds": ["xml"],
       "author": "Mordachai",
