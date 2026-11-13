@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-12T21:05:31Z",
+  "generated": "2026-11-13T05:21:51Z",
   "mods": [
     {
       "schema": 1,
@@ -38,9 +38,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.37/Coherent-R-D-v1.0.37.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.37/Coherent-R-D-v1.0.37.preview.jpg",
       "publishedAt": "2026-11-12T20:46:43Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 5,
+      "downloads": 5,
+      "peakDownloads": 5
     },
     {
       "schema": 1,
@@ -78,9 +78,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Diplomatic-Corps-v1.0.15/Diplomatic-Corps-v1.0.15.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Diplomatic-Corps-v1.0.15/Diplomatic-Corps-v1.0.15.preview.jpg",
       "publishedAt": "2026-11-12T20:46:48Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 5,
+      "downloads": 5,
+      "peakDownloads": 5
     },
     {
       "schema": 1,
@@ -114,9 +114,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/DLC-Compatibility-for-XL-v1.0.13/DLC-Compatibility-for-XL-v1.0.13.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/DLC-Compatibility-for-XL-v1.0.13/DLC-Compatibility-for-XL-v1.0.13.preview.jpg",
       "publishedAt": "2026-11-12T20:46:53Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -154,9 +154,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Freighter-Logistics-v1.0.39/Freighter-Logistics-v1.0.39.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Freighter-Logistics-v1.0.39/Freighter-Logistics-v1.0.39.preview.png",
       "publishedAt": "2026-11-12T20:46:58Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -183,9 +183,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Galactic-Genesis-v1.0.33/Galactic-Genesis-v1.0.33.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Galactic-Genesis-v1.0.33/Galactic-Genesis-v1.0.33.preview.jpg",
       "publishedAt": "2026-11-12T20:47:03Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -218,9 +218,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Independence-Day-v1.0.23/Independence-Day-v1.0.23.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Independence-Day-v1.0.23/Independence-Day-v1.0.23.preview.jpg",
       "publishedAt": "2026-11-12T20:47:08Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -247,9 +247,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Music-Box-v1.0.7/Music-Box-v1.0.7.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Music-Box-v1.0.7/Music-Box-v1.0.7.preview.jpg",
       "publishedAt": "2026-11-12T20:47:12Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -276,9 +276,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Positronic-Matrix-v1.0.2/Positronic-Matrix-v1.0.2.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Positronic-Matrix-v1.0.2/Positronic-Matrix-v1.0.2.preview.png",
       "publishedAt": "2026-11-12T20:47:17Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -305,9 +305,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.24/Settings-Keeper-v1.0.24.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.24/Settings-Keeper-v1.0.24.preview.jpg",
       "publishedAt": "2026-11-12T20:47:22Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -345,9 +345,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.40/Ship-Logistics-v1.0.40.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.40/Ship-Logistics-v1.0.40.preview.png",
       "publishedAt": "2026-11-12T20:47:27Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -374,9 +374,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Spies-Have-Limits-v1.0.16/Spies-Have-Limits-v1.0.16.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Spies-Have-Limits-v1.0.16/Spies-Have-Limits-v1.0.16.preview.png",
       "publishedAt": "2026-11-12T20:47:32Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -403,9 +403,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Tactical-Savvy-v1.0.18/Tactical-Savvy-v1.0.18.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Tactical-Savvy-v1.0.18/Tactical-Savvy-v1.0.18.preview.jpg",
       "publishedAt": "2026-11-12T20:47:37Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -439,9 +439,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Core-Japanese-v1.0.1/Translation-Core-Japanese-v1.0.1.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Core-Japanese-v1.0.1/Translation-Core-Japanese-v1.0.1.preview.jpg",
       "publishedAt": "2026-11-12T20:47:42Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -468,9 +468,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Font-Japanese-v1.0.1/Translation-Font-Japanese-v1.0.1.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Font-Japanese-v1.0.1/Translation-Font-Japanese-v1.0.1.preview.jpg",
       "publishedAt": "2026-11-12T20:48:05Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -579,9 +579,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Japanese-v1.0.19/Translation-Pack-Japanese-v1.0.19.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Japanese-v1.0.19/Translation-Pack-Japanese-v1.0.19.preview.jpg",
       "publishedAt": "2026-11-12T20:48:11Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -680,9 +680,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Russian-v1.0.19/Translation-Pack-Russian-v1.0.19.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Russian-v1.0.19/Translation-Pack-Russian-v1.0.19.preview.jpg",
       "publishedAt": "2026-11-12T20:48:16Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 4,
+      "downloads": 4,
+      "peakDownloads": 4
     },
     {
       "schema": 1,
@@ -730,9 +730,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.40/Troop-Logistics-v1.0.40.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.40/Troop-Logistics-v1.0.40.preview.jpg",
       "publishedAt": "2026-11-12T20:48:21Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 3,
+      "downloads": 3,
+      "peakDownloads": 3
     },
     {
       "schema": 1,
@@ -765,9 +765,9 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.21/War-Chest-v1.0.21.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.21/War-Chest-v1.0.21.preview.jpg",
       "publishedAt": "2026-11-12T20:48:26Z",
-      "latestDownloads": 1,
-      "downloads": 1,
-      "peakDownloads": 1
+      "latestDownloads": 3,
+      "downloads": 3,
+      "peakDownloads": 3
     },
     {
       "schema": 1,
