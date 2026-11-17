@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-16T05:23:40Z",
+  "generated": "2026-11-17T05:22:47Z",
   "mods": [
     {
       "schema": 1,
@@ -10,8 +10,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.40",
-      "tag": "Coherent-R-D-v1.0.40",
+      "version": "1.0.42",
+      "tag": "Coherent-R-D-v1.0.42",
       "author": "Mordachai",
       "shortDescription": "Makes the component families in empire policies work the way they read. Adds the families to XL's armor, shields, engines, hyperdrives and reactors, lets an empire that prefers a family still use a clearly better component outside it, and fixes the game's hyperdrive efficiency score. Load it after DW2-XL.",
       "workshopId": 3819331138,
@@ -43,17 +43,17 @@
           "required": false
         }
       ],
-      "zip": "Coherent-R-D-v1.0.40.zip",
-      "size": 558097,
-      "sha256": "707a45716ec59eb9531bfdda41988b9264b9129fedd3322376a677c06a898957",
-      "publishedUtc": "2026-11-16T04:16:54Z",
+      "zip": "Coherent-R-D-v1.0.42.zip",
+      "size": 561525,
+      "sha256": "7cbd4c247aab43b9719349093c8eb3710bf440c82e86510fe70d27ed5a3b0dcc",
+      "publishedUtc": "2026-11-16T23:34:11Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Coherent-R-D-v1.0.40",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.40/Coherent-R-D-v1.0.40.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.40/Coherent-R-D-v1.0.40.preview.jpg",
-      "publishedAt": "2026-11-16T04:16:57Z",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Coherent-R-D-v1.0.42",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.42/Coherent-R-D-v1.0.42.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.42/Coherent-R-D-v1.0.42.preview.jpg",
+      "publishedAt": "2026-11-16T23:34:15Z",
       "latestDownloads": 1,
-      "downloads": 16,
+      "downloads": 19,
       "peakDownloads": 8
     },
     {
@@ -99,8 +99,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Diplomatic-Corps-v1.0.17/Diplomatic-Corps-v1.0.17.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Diplomatic-Corps-v1.0.17/Diplomatic-Corps-v1.0.17.preview.jpg",
       "publishedAt": "2026-11-15T21:28:35Z",
-      "latestDownloads": 3,
-      "downloads": 17,
+      "latestDownloads": 4,
+      "downloads": 18,
       "peakDownloads": 9
     },
     {
@@ -136,8 +136,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/DLC-Compatibility-for-XL-v1.0.15/DLC-Compatibility-for-XL-v1.0.15.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/DLC-Compatibility-for-XL-v1.0.15/DLC-Compatibility-for-XL-v1.0.15.preview.jpg",
       "publishedAt": "2026-11-15T21:27:19Z",
-      "latestDownloads": 1,
-      "downloads": 8,
+      "latestDownloads": 2,
+      "downloads": 9,
       "peakDownloads": 4
     },
     {
@@ -190,8 +190,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Freighter-Logistics-v1.0.41/Freighter-Logistics-v1.0.41.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Freighter-Logistics-v1.0.41/Freighter-Logistics-v1.0.41.preview.png",
       "publishedAt": "2026-11-15T21:36:07Z",
-      "latestDownloads": 3,
-      "downloads": 14,
+      "latestDownloads": 4,
+      "downloads": 15,
       "peakDownloads": 7
     },
     {
@@ -226,8 +226,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Galactic-Genesis-v1.0.35/Galactic-Genesis-v1.0.35.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Galactic-Genesis-v1.0.35/Galactic-Genesis-v1.0.35.preview.jpg",
       "publishedAt": "2026-11-15T21:27:36Z",
-      "latestDownloads": 2,
-      "downloads": 11,
+      "latestDownloads": 3,
+      "downloads": 12,
       "peakDownloads": 5
     },
     {
@@ -262,8 +262,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Independence-Day-v1.0.25/Independence-Day-v1.0.25.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Independence-Day-v1.0.25/Independence-Day-v1.0.25.preview.jpg",
       "publishedAt": "2026-11-15T21:27:48Z",
-      "latestDownloads": 1,
-      "downloads": 10,
+      "latestDownloads": 2,
+      "downloads": 11,
       "peakDownloads": 5
     },
     {
@@ -301,8 +301,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Music-Box-v1.0.10/Music-Box-v1.0.10.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Music-Box-v1.0.10/Music-Box-v1.0.10.preview.jpg",
       "publishedAt": "2026-11-16T04:28:55Z",
-      "latestDownloads": 1,
-      "downloads": 14,
+      "latestDownloads": 2,
+      "downloads": 15,
       "peakDownloads": 7
     },
     {
@@ -330,8 +330,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Positronic-Matrix-v1.0.4/Positronic-Matrix-v1.0.4.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Positronic-Matrix-v1.0.4/Positronic-Matrix-v1.0.4.preview.png",
       "publishedAt": "2026-11-15T21:26:51Z",
-      "latestDownloads": 1,
-      "downloads": 13,
+      "latestDownloads": 2,
+      "downloads": 14,
       "peakDownloads": 8
     },
     {
@@ -359,8 +359,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.27/Settings-Keeper-v1.0.27.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.27/Settings-Keeper-v1.0.27.preview.jpg",
       "publishedAt": "2026-11-16T04:15:49Z",
-      "latestDownloads": 1,
-      "downloads": 12,
+      "latestDownloads": 2,
+      "downloads": 13,
       "peakDownloads": 6
     },
     {
@@ -371,8 +371,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.46",
-      "tag": "Ship-Logistics-v1.0.46",
+      "version": "1.0.47",
+      "tag": "Ship-Logistics-v1.0.47",
       "author": "Mordachai",
       "shortDescription": "A whole gamut of changes to make fleets and ships behave more intelligently",
       "workshopId": 3815304122,
@@ -422,17 +422,17 @@
           "required": false
         }
       ],
-      "zip": "Ship-Logistics-v1.0.46.zip",
-      "size": 863959,
-      "sha256": "2ba84e04f87d0e0930c650a7d14933cb0fc07eaa06e5a0e146209d975e136e46",
-      "publishedUtc": "2026-11-16T04:37:58Z",
+      "zip": "Ship-Logistics-v1.0.47.zip",
+      "size": 865991,
+      "sha256": "270a79c95c97e7f9e7930cbcddfe8b0e7c7187223dc5c21fb3fe78ac1de04f85",
+      "publishedUtc": "2026-11-16T06:34:03Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Ship-Logistics-v1.0.46",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.46/Ship-Logistics-v1.0.46.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.46/Ship-Logistics-v1.0.46.preview.png",
-      "publishedAt": "2026-11-16T04:38:01Z",
-      "latestDownloads": 1,
-      "downloads": 21,
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Ship-Logistics-v1.0.47",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.47/Ship-Logistics-v1.0.47.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.47/Ship-Logistics-v1.0.47.preview.png",
+      "publishedAt": "2026-11-16T06:34:07Z",
+      "latestDownloads": 3,
+      "downloads": 25,
       "peakDownloads": 10
     },
     {
@@ -467,8 +467,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Spies-Have-Limits-v1.0.18/Spies-Have-Limits-v1.0.18.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Spies-Have-Limits-v1.0.18/Spies-Have-Limits-v1.0.18.preview.png",
       "publishedAt": "2026-11-15T21:28:08Z",
-      "latestDownloads": 2,
-      "downloads": 11,
+      "latestDownloads": 3,
+      "downloads": 12,
       "peakDownloads": 5
     },
     {
@@ -496,8 +496,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Tactical-Savvy-v1.0.23/Tactical-Savvy-v1.0.23.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Tactical-Savvy-v1.0.23/Tactical-Savvy-v1.0.23.preview.jpg",
       "publishedAt": "2026-11-16T04:16:05Z",
-      "latestDownloads": 1,
-      "downloads": 17,
+      "latestDownloads": 2,
+      "downloads": 18,
       "peakDownloads": 7
     },
     {
@@ -816,8 +816,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.43",
-      "tag": "Troop-Logistics-v1.0.43",
+      "version": "1.0.45",
+      "tag": "Troop-Logistics-v1.0.45",
       "author": "Mordachai",
       "shortDescription": "Troops stay where they are needed: garrisons that scale with population and stay put, idle transports that stop hoarding troops, and reserves staged near your invasion fleets.",
       "workshopId": 3821203666,
@@ -855,17 +855,17 @@
           "required": false
         }
       ],
-      "zip": "Troop-Logistics-v1.0.43.zip",
-      "size": 687508,
-      "sha256": "f308c5a19aba01d992c241cc3ec636d78de52795160dba98512a24afe93706a4",
-      "publishedUtc": "2026-11-16T04:27:53Z",
+      "zip": "Troop-Logistics-v1.0.45.zip",
+      "size": 688529,
+      "sha256": "354ccadc9c427f3e69f58a095710f4297ed61b45b5d9a08f2a35533d6070335e",
+      "publishedUtc": "2026-11-16T06:33:47Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Troop-Logistics-v1.0.43",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.43/Troop-Logistics-v1.0.43.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.43/Troop-Logistics-v1.0.43.preview.jpg",
-      "publishedAt": "2026-11-16T04:27:57Z",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Troop-Logistics-v1.0.45",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.45/Troop-Logistics-v1.0.45.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.45/Troop-Logistics-v1.0.45.preview.jpg",
+      "publishedAt": "2026-11-16T06:33:52Z",
       "latestDownloads": 1,
-      "downloads": 14,
+      "downloads": 17,
       "peakDownloads": 8
     },
     {
@@ -876,8 +876,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.24",
-      "tag": "War-Chest-v1.0.24",
+      "version": "1.0.25",
+      "tag": "War-Chest-v1.0.25",
       "author": "Mordachai",
       "shortDescription": "Protect your reserves. Control your spending. Keep the empire ready for anything. One treasury floor and one view of income and upkeep that every XL mod asks before it spends.",
       "workshopId": 3824731625,
@@ -909,17 +909,17 @@
           "required": false
         }
       ],
-      "zip": "War-Chest-v1.0.24.zip",
-      "size": 568911,
-      "sha256": "29ca4b96816ed4b0e3daf6bbf89c2a9f4fd1a29f5bdbbe94c6d6af75a6651923",
-      "publishedUtc": "2026-11-16T04:16:26Z",
+      "zip": "War-Chest-v1.0.25.zip",
+      "size": 569208,
+      "sha256": "8aa243f24bff9839a77fadeb2f6f8f78d72d9d1f24b68368a7093372266b6879",
+      "publishedUtc": "2026-11-16T06:00:59Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/War-Chest-v1.0.24",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.24/War-Chest-v1.0.24.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.24/War-Chest-v1.0.24.preview.jpg",
-      "publishedAt": "2026-11-16T04:16:29Z",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/War-Chest-v1.0.25",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.25/War-Chest-v1.0.25.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.25/War-Chest-v1.0.25.preview.jpg",
+      "publishedAt": "2026-11-16T06:01:04Z",
       "latestDownloads": 1,
-      "downloads": 13,
+      "downloads": 15,
       "peakDownloads": 7
     },
     {
