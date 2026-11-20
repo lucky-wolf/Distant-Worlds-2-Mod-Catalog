@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-19T05:22:48Z",
+  "generated": "2026-11-20T05:23:35Z",
   "mods": [
     {
       "schema": 1,
@@ -10,8 +10,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.45",
-      "tag": "Coherent-R-D-v1.0.45",
+      "version": "1.0.47",
+      "tag": "Coherent-R-D-v1.0.47",
       "author": "Mordachai",
       "shortDescription": "Makes the component families in empire policies work the way they read. Adds the families to XL's armor, shields, engines, hyperdrives and reactors, lets an empire that prefers a family still use a clearly better component outside it, and fixes the game's hyperdrive efficiency score. Load it after DW2-XL.",
       "workshopId": 3819331138,
@@ -47,17 +47,17 @@
           "required": false
         }
       ],
-      "zip": "Coherent-R-D-v1.0.45.zip",
-      "size": 604085,
-      "sha256": "f94d2e67f33d6d8e6f949ca40635999d866293d9d289e05441f941eb83588bec",
-      "publishedUtc": "2026-11-19T04:38:41Z",
+      "zip": "Coherent-R-D-v1.0.47.zip",
+      "size": 606854,
+      "sha256": "4520b4f97087db2ee8c67576c988cf7a9484e84db8cfc0d26aaf9349742e93ed",
+      "publishedUtc": "2026-11-19T21:25:55Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Coherent-R-D-v1.0.45",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.45/Coherent-R-D-v1.0.45.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.45/Coherent-R-D-v1.0.45.preview.jpg",
-      "publishedAt": "2026-11-19T04:38:46Z",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Coherent-R-D-v1.0.47",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.47/Coherent-R-D-v1.0.47.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Coherent-R-D-v1.0.47/Coherent-R-D-v1.0.47.preview.jpg",
+      "publishedAt": "2026-11-19T21:25:59Z",
       "latestDownloads": 1,
-      "downloads": 26,
+      "downloads": 34,
       "peakDownloads": 8
     },
     {
@@ -103,8 +103,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Diplomatic-Corps-v1.0.18/Diplomatic-Corps-v1.0.18.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Diplomatic-Corps-v1.0.18/Diplomatic-Corps-v1.0.18.preview.jpg",
       "publishedAt": "2026-11-19T02:54:41Z",
-      "latestDownloads": 1,
-      "downloads": 20,
+      "latestDownloads": 5,
+      "downloads": 24,
       "peakDownloads": 9
     },
     {
@@ -147,9 +147,264 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/DLC-Compatibility-for-XL-v1.0.16/DLC-Compatibility-for-XL-v1.0.16.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/DLC-Compatibility-for-XL-v1.0.16/DLC-Compatibility-for-XL-v1.0.16.preview.jpg",
       "publishedAt": "2026-11-17T18:28:14Z",
+      "latestDownloads": 6,
+      "downloads": 18,
+      "peakDownloads": 6
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Flags",
+      "uid": "85839a80-b5b8-4a3d-a766-6ea0dce5a1a7",
+      "name": "DW2R-Flags",
+      "kinds": [
+        "code"
+      ],
+      "version": "1.0.1",
+      "tag": "DW2R-Flags-v1.0.1",
+      "author": "salemonz",
+      "shortDescription": "Hundreds of new flags for every race, and AI empires that actually fly them. Plus a flag picker that shows them all and a way to change any empire's flag mid-game.",
+      "workshopId": 3829956114,
+      "minLauncherVersion": "",
+      "tags": [],
+      "dependencies": [],
+      "zip": "DW2R-Flags-v1.0.1.zip",
+      "size": 45050501,
+      "sha256": "3bcaea4e316f7c311419c3812f50b360267b3b7d3866a01b0f3a0384f2723e69",
+      "publishedUtc": "2026-11-20T01:52:53Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Flags-v1.0.1",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Flags-v1.0.1/DW2R-Flags-v1.0.1.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Flags-v1.0.1/DW2R-Flags-v1.0.1.preview.jpg",
+      "publishedAt": "2026-11-20T01:53:00Z",
+      "latestDownloads": 1,
+      "downloads": 1,
+      "peakDownloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Galaxy-View",
+      "uid": "b21049c8-4a39-41ca-bb97-6018260892b9",
+      "name": "DW2R-Galaxy-View",
+      "kinds": [
+        "code"
+      ],
+      "version": "0.9.12",
+      "tag": "DW2R-Galaxy-View-v0.9.12",
+      "author": "salemonz",
+      "shortDescription": "",
+      "workshopId": 3840104109,
+      "minLauncherVersion": "",
+      "tags": [],
+      "dependencies": [
+        {
+          "mod": "Refreshed Planets and Stars",
+          "uid": "d3e6968c-5ba6-4522-aaa6-bfe1daf0d213",
+          "workshopId": 3838171190,
+          "required": false
+        },
+        {
+          "mod": "Troop Logistics",
+          "uid": "4468052e-630d-4ff2-92b4-2af233d18cfe",
+          "workshopId": 3821203666,
+          "required": false
+        }
+      ],
+      "zip": "DW2R-Galaxy-View-v0.9.12.zip",
+      "size": 3254275,
+      "sha256": "eb4d3ccd76461626a28737f3378b5498a7b98d1e81524601cfbb4e91a764d0aa",
+      "publishedUtc": "2026-11-20T01:48:40Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Galaxy-View-v0.9.12",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Galaxy-View-v0.9.12/DW2R-Galaxy-View-v0.9.12.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Galaxy-View-v0.9.12/DW2R-Galaxy-View-v0.9.12.preview.jpg",
+      "publishedAt": "2026-11-20T01:48:45Z",
       "latestDownloads": 2,
-      "downloads": 14,
-      "peakDownloads": 5
+      "downloads": 2,
+      "peakDownloads": 2
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Ground-Units",
+      "uid": "e3e6e66d-beff-4dc5-baa6-62268b11149a",
+      "name": "DW2R-Ground-Units",
+      "kinds": [
+        "code"
+      ],
+      "version": "1.1.3",
+      "tag": "DW2R-Ground-Units-v1.1.3",
+      "author": "salemonz",
+      "shortDescription": "Every race's ground troops in full color, a readable ground combat screen, and a clearer colony troop panel.",
+      "workshopId": 3828649663,
+      "minLauncherVersion": "1.0.20",
+      "tags": [],
+      "dependencies": [],
+      "zip": "DW2R-Ground-Units-v1.1.3.zip",
+      "size": 1996019,
+      "sha256": "19685add17187f7f55fdd6d3735ea834c232e1ee589f6e9b1ca0a7e5c9827bb1",
+      "publishedUtc": "2026-11-20T01:54:18Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Ground-Units-v1.1.3",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Ground-Units-v1.1.3/DW2R-Ground-Units-v1.1.3.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Ground-Units-v1.1.3/DW2R-Ground-Units-v1.1.3.preview.jpg",
+      "publishedAt": "2026-11-20T01:54:23Z",
+      "latestDownloads": 1,
+      "downloads": 1,
+      "peakDownloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Lighting",
+      "uid": "bbff3f57-0d45-4c1f-96e8-4a6853354e27",
+      "name": "DW2R-Lighting",
+      "kinds": [
+        "code",
+        "xml"
+      ],
+      "version": "1.3.2",
+      "tag": "DW2R-Lighting-v1.3.2",
+      "author": "salemonz",
+      "shortDescription": "Ships lit by their star: a bright side and a dark side, real shadows on the hull, and filmic color. Inspired by EVE Online.",
+      "workshopId": 3836570075,
+      "minLauncherVersion": "",
+      "tags": [],
+      "dependencies": [
+        {
+          "mod": "XL",
+          "uid": "363fba16-301d-41d4-979e-3432c10cbd59",
+          "workshopId": 2916197192,
+          "required": false
+        }
+      ],
+      "zip": "DW2R-Lighting-v1.3.2.zip",
+      "size": 852842,
+      "sha256": "7e2d75426b388cad02e7bacca8397b5017e6f62ee960db53b95f3db1c39bc2a0",
+      "publishedUtc": "2026-11-20T01:49:14Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Lighting-v1.3.2",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Lighting-v1.3.2/DW2R-Lighting-v1.3.2.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Lighting-v1.3.2/DW2R-Lighting-v1.3.2.preview.jpg",
+      "publishedAt": "2026-11-20T01:49:18Z",
+      "latestDownloads": 1,
+      "downloads": 1,
+      "peakDownloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Planets-And-Stars",
+      "uid": "d3e6968c-5ba6-4522-aaa6-bfe1daf0d213",
+      "name": "DW2R-Planets-And-Stars",
+      "kinds": [
+        "code"
+      ],
+      "version": "1.3.4",
+      "tag": "DW2R-Planets-And-Stars-v1.3.4",
+      "author": "salemonz",
+      "shortDescription": "",
+      "workshopId": 3838171190,
+      "minLauncherVersion": "",
+      "tags": [],
+      "dependencies": [],
+      "zip": "DW2R-Planets-And-Stars-v1.3.4.zip",
+      "size": 1783642,
+      "sha256": "923fd8cc154780da25f381527d21ca775158d9ac0637b4ac2beea32dadf9ca84",
+      "publishedUtc": "2026-11-20T01:48:59Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Planets-And-Stars-v1.3.4",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Planets-And-Stars-v1.3.4/DW2R-Planets-And-Stars-v1.3.4.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Planets-And-Stars-v1.3.4/DW2R-Planets-And-Stars-v1.3.4.preview.jpg",
+      "publishedAt": "2026-11-20T01:49:03Z",
+      "latestDownloads": 1,
+      "downloads": 1,
+      "peakDownloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Resources",
+      "uid": "0e6c9008-069a-4304-af87-9a7ba64a1e9b",
+      "name": "DW2R-Resources",
+      "kinds": [
+        "art"
+      ],
+      "version": "1.3.4",
+      "tag": "DW2R-Resources-v1.3.4",
+      "author": "salemonz",
+      "shortDescription": "Replaces the default Resource art assets with new images and colored backgrounds for easier reference.",
+      "workshopId": 3130622140,
+      "minLauncherVersion": "",
+      "tags": [
+        "art"
+      ],
+      "dependencies": [],
+      "zip": "DW2R-Resources-v1.3.4.zip",
+      "size": 3852217,
+      "sha256": "1996675d4e4aaf89141ccc041892b4214d35132a94ed32a1d8848ab5a0751bcd",
+      "publishedUtc": "2026-11-20T03:48:39Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Resources-v1.3.4",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Resources-v1.3.4/DW2R-Resources-v1.3.4.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Resources-v1.3.4/DW2R-Resources-v1.3.4.preview.jpg",
+      "publishedAt": "2026-11-20T03:48:43Z",
+      "latestDownloads": 2,
+      "downloads": 2,
+      "peakDownloads": 2
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Shipset-Colors",
+      "uid": "82dd7adb-a944-44dc-a058-a6163a272cde",
+      "name": "DW2R-Shipset-Colors",
+      "kinds": [
+        "code"
+      ],
+      "version": "1.2.1",
+      "tag": "DW2R-Shipset-Colors-v1.2.1",
+      "author": "salemonz",
+      "shortDescription": "Four new colors for every shipset, chosen per empire. Pick your ship color at new game setup, and AI empires fly their own colors too.",
+      "workshopId": 3833408745,
+      "minLauncherVersion": "",
+      "tags": [],
+      "dependencies": [],
+      "zip": "DW2R-Shipset-Colors-v1.2.1.zip",
+      "size": 1586161351,
+      "sha256": "f03387258ddd06959ad41374e28b33c646c4376b15f7ab2307bd7e193e23da4d",
+      "publishedUtc": "2026-11-20T01:49:58Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Shipset-Colors-v1.2.1",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Shipset-Colors-v1.2.1/DW2R-Shipset-Colors-v1.2.1.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Shipset-Colors-v1.2.1/DW2R-Shipset-Colors-v1.2.1.preview.jpg",
+      "publishedAt": "2026-11-20T01:52:25Z",
+      "latestDownloads": 1,
+      "downloads": 1,
+      "peakDownloads": 1
+    },
+    {
+      "schema": 1,
+      "id": "DW2R-Visual-Effects",
+      "uid": "ace409ba-5ec2-4183-954d-6228503591e1",
+      "name": "DW2R-Visual-Effects",
+      "kinds": [
+        "code"
+      ],
+      "version": "1.0.18",
+      "tag": "DW2R-Visual-Effects-v1.0.18",
+      "author": "salemonz",
+      "shortDescription": "",
+      "workshopId": 3835033391,
+      "minLauncherVersion": "",
+      "tags": [],
+      "dependencies": [],
+      "zip": "DW2R-Visual-Effects-v1.0.18.zip",
+      "size": 4755774,
+      "sha256": "c0b3cb403996f20dc139623cc3ee035a0c21b2b787215b0003d84740b61bb739",
+      "publishedUtc": "2026-11-20T01:49:29Z",
+      "repo": "salemonz/DW2-Refreshed",
+      "releaseUrl": "https://github.com/salemonz/DW2-Refreshed/releases/tag/DW2R-Visual-Effects-v1.0.18",
+      "downloadUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Visual-Effects-v1.0.18/DW2R-Visual-Effects-v1.0.18.zip",
+      "previewUrl": "https://github.com/salemonz/DW2-Refreshed/releases/download/DW2R-Visual-Effects-v1.0.18/DW2R-Visual-Effects-v1.0.18.preview.jpg",
+      "publishedAt": "2026-11-20T01:49:33Z",
+      "latestDownloads": 1,
+      "downloads": 1,
+      "peakDownloads": 1
     },
     {
       "schema": 1,
@@ -205,8 +460,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Freighter-Logistics-v1.0.42/Freighter-Logistics-v1.0.42.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Freighter-Logistics-v1.0.42/Freighter-Logistics-v1.0.42.preview.png",
       "publishedAt": "2026-11-17T18:16:27Z",
-      "latestDownloads": 2,
-      "downloads": 18,
+      "latestDownloads": 5,
+      "downloads": 21,
       "peakDownloads": 7
     },
     {
@@ -245,8 +500,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Galactic-Genesis-v1.0.37/Galactic-Genesis-v1.0.37.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Galactic-Genesis-v1.0.37/Galactic-Genesis-v1.0.37.preview.jpg",
       "publishedAt": "2026-11-18T00:53:20Z",
-      "latestDownloads": 2,
-      "downloads": 16,
+      "latestDownloads": 4,
+      "downloads": 18,
       "peakDownloads": 5
     },
     {
@@ -285,8 +540,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Independence-Day-v1.0.26/Independence-Day-v1.0.26.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Independence-Day-v1.0.26/Independence-Day-v1.0.26.preview.jpg",
       "publishedAt": "2026-11-17T18:25:23Z",
-      "latestDownloads": 2,
-      "downloads": 14,
+      "latestDownloads": 5,
+      "downloads": 17,
       "peakDownloads": 5
     },
     {
@@ -324,8 +579,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Music-Box-v1.0.10/Music-Box-v1.0.10.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Music-Box-v1.0.10/Music-Box-v1.0.10.preview.jpg",
       "publishedAt": "2026-11-16T04:28:55Z",
-      "latestDownloads": 2,
-      "downloads": 15,
+      "latestDownloads": 4,
+      "downloads": 17,
       "peakDownloads": 7
     },
     {
@@ -355,8 +610,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Positronic-Matrix-v1.0.5/Positronic-Matrix-v1.0.5.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Positronic-Matrix-v1.0.5/Positronic-Matrix-v1.0.5.preview.png",
       "publishedAt": "2026-11-17T18:30:28Z",
-      "latestDownloads": 2,
-      "downloads": 17,
+      "latestDownloads": 4,
+      "downloads": 19,
       "peakDownloads": 8
     },
     {
@@ -367,8 +622,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.30",
-      "tag": "Settings-Keeper-v1.0.30",
+      "version": "1.0.33",
+      "tag": "Settings-Keeper-v1.0.33",
       "author": "Mordachai",
       "shortDescription": "Keeps your game settings, key bindings, default policy and new-game setup in plain text files outside the game folder, so a game update or a Steam branch switch no longer resets them.",
       "workshopId": 3824847512,
@@ -384,17 +639,17 @@
           "required": false
         }
       ],
-      "zip": "Settings-Keeper-v1.0.30.zip",
-      "size": 460352,
-      "sha256": "7c40fc4b1f20e573ae404d942ae1d225e74ced0f3eb7de96880482b260e4625c",
-      "publishedUtc": "2026-11-19T04:41:39Z",
+      "zip": "Settings-Keeper-v1.0.33.zip",
+      "size": 476006,
+      "sha256": "cc6717a75de90265d9126a09e452da9c0ef1c0f159c6ed4e30a3dc8e98a252cd",
+      "publishedUtc": "2026-11-20T02:43:53Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Settings-Keeper-v1.0.30",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.30/Settings-Keeper-v1.0.30.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.30/Settings-Keeper-v1.0.30.preview.jpg",
-      "publishedAt": "2026-11-19T04:41:44Z",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Settings-Keeper-v1.0.33",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.33/Settings-Keeper-v1.0.33.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Settings-Keeper-v1.0.33/Settings-Keeper-v1.0.33.preview.jpg",
+      "publishedAt": "2026-11-20T02:43:58Z",
       "latestDownloads": 1,
-      "downloads": 19,
+      "downloads": 26,
       "peakDownloads": 6
     },
     {
@@ -405,8 +660,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.50",
-      "tag": "Ship-Logistics-v1.0.50",
+      "version": "1.0.51",
+      "tag": "Ship-Logistics-v1.0.51",
       "author": "Mordachai",
       "shortDescription": "A whole gamut of changes to make fleets and ships behave more intelligently",
       "workshopId": 3815304122,
@@ -460,17 +715,17 @@
           "required": false
         }
       ],
-      "zip": "Ship-Logistics-v1.0.50.zip",
-      "size": 874816,
-      "sha256": "b21c00ccdd978eccfa515fb8fd3e800c8f4de6efd4ff27c179968deb094b5732",
-      "publishedUtc": "2026-11-19T04:38:10Z",
+      "zip": "Ship-Logistics-v1.0.51.zip",
+      "size": 876129,
+      "sha256": "72e4889e0a4d2b85aa22751f4b377cef8ee7e6f2849a9d79feb0bd3e6bc2fdb6",
+      "publishedUtc": "2026-11-20T04:48:41Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Ship-Logistics-v1.0.50",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.50/Ship-Logistics-v1.0.50.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.50/Ship-Logistics-v1.0.50.preview.png",
-      "publishedAt": "2026-11-19T04:38:14Z",
-      "latestDownloads": 1,
-      "downloads": 31,
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Ship-Logistics-v1.0.51",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.51/Ship-Logistics-v1.0.51.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Ship-Logistics-v1.0.51/Ship-Logistics-v1.0.51.preview.png",
+      "publishedAt": "2026-11-20T04:48:45Z",
+      "latestDownloads": 2,
+      "downloads": 38,
       "peakDownloads": 10
     },
     {
@@ -507,8 +762,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Spies-Have-Limits-v1.0.19/Spies-Have-Limits-v1.0.19.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Spies-Have-Limits-v1.0.19/Spies-Have-Limits-v1.0.19.preview.png",
       "publishedAt": "2026-11-17T18:23:40Z",
-      "latestDownloads": 2,
-      "downloads": 16,
+      "latestDownloads": 5,
+      "downloads": 19,
       "peakDownloads": 5
     },
     {
@@ -540,8 +795,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Tactical-Savvy-v1.0.25/Tactical-Savvy-v1.0.25.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Tactical-Savvy-v1.0.25/Tactical-Savvy-v1.0.25.preview.jpg",
       "publishedAt": "2026-11-18T00:50:55Z",
-      "latestDownloads": 2,
-      "downloads": 22,
+      "latestDownloads": 5,
+      "downloads": 25,
       "peakDownloads": 7
     },
     {
@@ -577,8 +832,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Core-Japanese-v1.0.3/Translation-Core-Japanese-v1.0.3.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Core-Japanese-v1.0.3/Translation-Core-Japanese-v1.0.3.preview.jpg",
       "publishedAt": "2026-11-15T22:02:37Z",
-      "latestDownloads": 1,
-      "downloads": 7,
+      "latestDownloads": 2,
+      "downloads": 8,
       "peakDownloads": 4
     },
     {
@@ -606,8 +861,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Font-Japanese-v1.0.3/Translation-Font-Japanese-v1.0.3.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Font-Japanese-v1.0.3/Translation-Font-Japanese-v1.0.3.preview.jpg",
       "publishedAt": "2026-11-15T22:03:00Z",
-      "latestDownloads": 1,
-      "downloads": 7,
+      "latestDownloads": 2,
+      "downloads": 8,
       "peakDownloads": 4
     },
     {
@@ -733,8 +988,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Japanese-v1.0.22/Translation-Pack-Japanese-v1.0.22.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Japanese-v1.0.22/Translation-Pack-Japanese-v1.0.22.preview.jpg",
       "publishedAt": "2026-11-19T03:00:31Z",
-      "latestDownloads": 1,
-      "downloads": 8,
+      "latestDownloads": 3,
+      "downloads": 10,
       "peakDownloads": 4
     },
     {
@@ -848,8 +1103,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Russian-v1.0.22/Translation-Pack-Russian-v1.0.22.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Translation-Pack-Russian-v1.0.22/Translation-Pack-Russian-v1.0.22.preview.jpg",
       "publishedAt": "2026-11-19T03:00:44Z",
-      "latestDownloads": 1,
-      "downloads": 12,
+      "latestDownloads": 4,
+      "downloads": 15,
       "peakDownloads": 5
     },
     {
@@ -860,8 +1115,8 @@
       "kinds": [
         "code"
       ],
-      "version": "1.0.47",
-      "tag": "Troop-Logistics-v1.0.47",
+      "version": "1.0.49",
+      "tag": "Troop-Logistics-v1.0.49",
       "author": "Mordachai",
       "shortDescription": "Troops stay where they are needed: garrisons that scale with population and stay put, idle transports that stop hoarding troops, and reserves staged near your invasion fleets.",
       "workshopId": 3821203666,
@@ -903,17 +1158,17 @@
           "required": false
         }
       ],
-      "zip": "Troop-Logistics-v1.0.47.zip",
-      "size": 693480,
-      "sha256": "da082d76fd0b4c55d896f1defac81d54383e459bde24d3894b5e60035c4ee1f2",
-      "publishedUtc": "2026-11-19T02:28:02Z",
+      "zip": "Troop-Logistics-v1.0.49.zip",
+      "size": 694364,
+      "sha256": "0a377ce17f41dcd2dc624aaec1b23d25530f1e309018204d52bc50f7823c1b6f",
+      "publishedUtc": "2026-11-19T21:26:10Z",
       "repo": "lucky-wolf/Distant-Worlds-2-Mods",
-      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Troop-Logistics-v1.0.47",
-      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.47/Troop-Logistics-v1.0.47.zip",
-      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.47/Troop-Logistics-v1.0.47.preview.jpg",
-      "publishedAt": "2026-11-19T02:28:06Z",
+      "releaseUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/tag/Troop-Logistics-v1.0.49",
+      "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.49/Troop-Logistics-v1.0.49.zip",
+      "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/Troop-Logistics-v1.0.49/Troop-Logistics-v1.0.49.preview.jpg",
+      "publishedAt": "2026-11-19T21:26:14Z",
       "latestDownloads": 1,
-      "downloads": 21,
+      "downloads": 28,
       "peakDownloads": 8
     },
     {
@@ -969,8 +1224,8 @@
       "downloadUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.27/War-Chest-v1.0.27.zip",
       "previewUrl": "https://github.com/lucky-wolf/Distant-Worlds-2-Mods/releases/download/War-Chest-v1.0.27/War-Chest-v1.0.27.preview.jpg",
       "publishedAt": "2026-11-19T02:33:46Z",
-      "latestDownloads": 1,
-      "downloads": 20,
+      "latestDownloads": 6,
+      "downloads": 25,
       "peakDownloads": 7
     },
     {
