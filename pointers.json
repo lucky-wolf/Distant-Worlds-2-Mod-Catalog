@@ -1,17 +1,8 @@
 {
   "repos": [],
   "blocked": [],
-  "gitlab": [
-    {
-      "project": "coyote-wolf/DW2-XL",
-      "id": "XL",
-      "uid": "363fba16-301d-41d4-979e-3432c10cbd59",
-      "name": "XL",
-      "kinds": ["xml"],
-      "author": "Mordachai",
-      "workshopId": 2916197192,
-      "previewUrl": "https://gitlab.com/coyote-wolf/DW2-XL/-/raw/main/XL/xl.jpg",
-      "shortDescription": "eXpands and enLarges the game - tech tree, weapons, engines, reactors, sensors, etc."
-    }
-  ]
+  "gitlab": [],
+  "approved": {
+    "363fba16-301d-41d4-979e-3432c10cbd59": "lucky-wolf/Distant-Worlds-2-Mods"
+  }
 }
